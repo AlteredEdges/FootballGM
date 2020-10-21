@@ -8,14 +8,56 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Reference",
+"class": "BaseDefense_3_4",
+"language": "GDScript",
+"path": "res://plays/defense/BaseDefense_3_4.gd"
+}, {
+"base": "Reference",
+"class": "Game",
+"language": "GDScript",
+"path": "res://Game.gd"
+}, {
+"base": "Reference",
+"class": "PlayCall",
+"language": "GDScript",
+"path": "res://PlayCall.gd"
+}, {
+"base": "Reference",
+"class": "PlayResult",
+"language": "GDScript",
+"path": "res://PlayResult.gd"
+}, {
+"base": "Reference",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Player.gd"
+}, {
+"base": "Reference",
+"class": "RunPlay",
+"language": "GDScript",
+"path": "res://plays/offense/RunPlay.gd"
+}, {
+"base": "Reference",
+"class": "Team",
+"language": "GDScript",
+"path": "res://Team.gd"
+} ]
 _global_script_class_icons={
-
+"BaseDefense_3_4": "",
+"Game": "",
+"PlayCall": "",
+"PlayResult": "",
+"Player": "",
+"RunPlay": "",
+"Team": ""
 }
 
 [application]
 
 config/name="football-gm"
+run/main_scene="res://GameSim.tscn"
 config/icon="res://icon.png"
 
 [rendering]
